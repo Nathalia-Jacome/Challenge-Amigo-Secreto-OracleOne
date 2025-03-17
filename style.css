@@ -90,9 +90,22 @@ body {
     font-size: 16px;
 }
 
-.button-container {
-    width: 300px;
+.single-button {
+    display: flex;
     justify-content: center;
+    margin-bottom: 15px; /* Espaço entre os botões */
+}
+
+/* Deixar os dois últimos botões lado a lado */
+.side-by-side {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espaço entre os botões */
+}
+
+.side-by-side button {
+    flex: 1; /* Faz com que os botões fiquem do mesmo tamanho */
+    max-width: 200px; /* Limita a largura máxima dos botões */
 }
 
 /* Estilos de entrada de texto */
@@ -165,7 +178,7 @@ ul {
 }
 
 .button-clear { /* Utilizei o exemplo feito no botão sortear para mudar e fazer um coisa diferente */
-    background-color: #415c71f5; /* Laranja mais claro */
+    background-color: #6288a4f5; /* Laranja mais claro */
     color: white; /* Cor do texto branca */
     margin-top: 20px; /* Margem para separação */
     padding: 10px 40px;
@@ -176,8 +189,26 @@ ul {
 }
 
 .button-clear:hover {
-    background-color: #67737cf5; /* Tom um pouco mais escuro ao passar o mouse */
+    background-color: #aabecef5; /* Tom um pouco mais escuro ao passar o mouse */
 }
 .button-clear img {
+    margin-right: 40px;
+}
+
+.button-reset { /* Utilizei o exemplo feito no botão sortear para mudar e fazer um coisa diferente */
+    background-color: #415c71f5; /* Laranja mais claro */
+    color: white; /* Cor do texto branca */
+    margin-top: 20px; /* Margem para separação */
+    padding: 10px 40px;
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.button-reset:hover {
+    background-color: #67737cf5; /* Tom um pouco mais escuro ao passar o mouse */
+}
+.button-reset img {
     margin-right: 40px;
 }
