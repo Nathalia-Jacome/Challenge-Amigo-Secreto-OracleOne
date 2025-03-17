@@ -26,7 +26,7 @@ foram incluídas por mim para praticar o que aprendi e melhorar a funcionalidade
 - **JavaScript (ES6)**
 
 ## 🎨 Estilização
-O design utiliza um esquema de cores vibrantes e amigáveis, com estilos responsivos para melhor experiência do usuário.
+O design utiliza um esquema de cores frias para combinar com a imagem principal utilizada, além de estilos responsivos para melhor experiência do usuário.
 
 ## 📜 Licença
 Sinta-se à vontade para utilizá-lo e modificá-lo!
