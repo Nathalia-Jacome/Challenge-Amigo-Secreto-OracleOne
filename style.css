@@ -1,10 +1,10 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
+    --color-primary: #000000;
+    --color-secondary: #7d7d7e;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
+    --color-button: #01457cf5;
+    --color-button-hover: #507fa4f5;
+    --color-text: #040404;
     --color-white: #FFFFFF;
 }
 
@@ -37,6 +37,8 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
+    margin-bottom: 20px; 
+    gap: 40px;
 }
 
 /* Seção de entrada */
@@ -59,6 +61,7 @@ body {
     font-weight: 900;
     font-style: italic;
     color: var(--color-white);
+    margin-bottom: 20px; 
 }
 
 .section-title {
@@ -136,7 +139,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #01457cf5;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -159,4 +162,22 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.button-clear { /* Utilizei o exemplo feito no botão sortear para mudar e fazer um coisa diferente */
+    background-color: #415c71f5; /* Laranja mais claro */
+    color: white; /* Cor do texto branca */
+    margin-top: 20px; /* Margem para separação */
+    padding: 10px 40px;
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.button-clear:hover {
+    background-color: #67737cf5; /* Tom um pouco mais escuro ao passar o mouse */
+}
+.button-clear img {
+    margin-right: 40px;
 }
