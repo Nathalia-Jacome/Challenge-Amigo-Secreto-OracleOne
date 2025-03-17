@@ -93,19 +93,19 @@ body {
 .single-button {
     display: flex;
     justify-content: center;
-    margin-bottom: 15px; /* Espaço entre os botões */
+    margin-bottom: 15px; 
 }
 
 /* Deixar os dois últimos botões lado a lado */
 .side-by-side {
     display: flex;
     justify-content: center;
-    gap: 15px; /* Espaço entre os botões */
+    gap: 15px; 
 }
 
 .side-by-side button {
     flex: 1; /* Faz com que os botões fiquem do mesmo tamanho */
-    max-width: 200px; /* Limita a largura máxima dos botões */
+    max-width: 200px; 
 }
 
 /* Estilos de entrada de texto */
